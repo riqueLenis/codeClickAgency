@@ -3,8 +3,8 @@
 Site desenvolvido com as seguintes tecnologias:
 
 - HTML
+- TypeScript
 - CSS
-- JavaScript
 
 ## Sobre
 
