@@ -11,6 +11,8 @@ import {
   CheckCircle2,
 } from "lucide-react";
 import { SERVICES, TEAM, ADVANTAGES } from "./constants";
+import heroImg from "./assets/images/element.png";
+import aboutImg from "./assets/images/equipeFGoto.jpg";
 
 const App: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -211,7 +213,7 @@ const App: React.FC = () => {
             <div className="hidden md:block relative">
               <div className="absolute -inset-4 bg-purple-400/20 rounded-2xl blur-2xl animate-pulse"></div>
               <img
-                src="/assets/images/element.png"
+                src={heroImg}
                 alt="Digital Agency Work"
                 className="relative rounded-2xl shadow-2xl border border-white/10"
               />
@@ -225,7 +227,7 @@ const App: React.FC = () => {
             <div className="grid md:grid-cols-2 gap-16 items-center mb-24">
               <div className="relative">
                 <img
-                  src="/assets/images/equipeFGoto.jpg"
+                  src={aboutImg}
                   alt="Equipe"
                   className="rounded-3xl shadow-2xl"
                 />

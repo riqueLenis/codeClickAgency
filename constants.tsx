@@ -8,6 +8,7 @@ import {
   Globe,
 } from "lucide-react";
 import { Service, TeamMember, Advantage } from "./types";
+import euImg from "./assets/images/eu.png";
 
 export const SERVICES: Service[] = [
   {
@@ -40,7 +41,7 @@ export const TEAM: TeamMember[] = [
     role: "CEO & FullStack Developer",
     quote:
       "Como CEO da CodeClick, garanto que cada solução é pensada para escalar seu negócio de verdade!",
-    image: "/assets/images/eu.png",
+    image: euImg,
   },
   {
     id: "henrique",
@@ -48,7 +49,7 @@ export const TEAM: TeamMember[] = [
     role: "Diretor de Marketing",
     quote:
       "Criamos estratégias sob medida para aumentar a presença online e gerar resultados reais e mensuráveis.",
-    image: "/assets/images/eu.png",
+    image: euImg,
   },
 ];
 
